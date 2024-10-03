@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+/* -------------- */
+
+@keyframes fadeIn {
+    from{
+        transform:translatey(30px) ;
+        opacity: 0;
+    }
+    to {
+        transform:translatey(0) ;
+        opacity: 1;
+    }
+}
+@keyframes fadeInTOP {
+    from{
+        transform:translatey(-50px) ;
+        opacity: 0;
+    }
+    to {
+        transform:translatey(0) ;
+        opacity: 1;
+    }
+}
+/* @keyframes pb-Zoom {
+    from{
+        size: 80%;
+        
+    }
+    to {
+        size: 100%;
+       
+    }
+} */
+
+#P1 {
+    animation:fadeIn 1.2s linear forwards;
+    animation-delay: 0s;
+    opacity: 0;
+    
+}
+#UL {
+    animation:fadeInTOP 1s ease-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+    
+}
+#Name {
+    animation:fadeIn 1.2s ease-out forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+#p {
+    animation:fadeIn 1.2s ease-out forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+#Icons {
+    animation:fadeIn 1.2s ease-out forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
+}
+#me {
+    animation:fadeIn 1.2s ease-in forwards;
+    animation-delay: 0s;
+    opacity: 0;
+}
+
