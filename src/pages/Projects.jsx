@@ -17,7 +17,7 @@ function Project (){
 
         </div>
 
-        <div   className=" grid grid-cols-1 gap-[20px] sm:ml-[20px] mt-[20px]  "  >
+        <div   className=" grid grid-cols-1 sm:grid-cols-3  gap-[20px] sm:ml-[20px] mt-[20px]  "  >
             <div id="me"  className=" border-[white] text-center border-[3px] bg-black  rounded-[10px]  h-[300px]  "   >
                 <h1 className=" text-white font-Body font-semibold text-[20px] pt-[10px]  " >Exam Center</h1>
                 <img className="sm:h-[200px]  h-[180px]   mt-[20px] ml-[40px] hover:scale-105 duration-150     " src="src/images/Screenshot 2024-10-03 at 10.06.31 AM.png" alt="" />
